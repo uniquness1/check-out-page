@@ -182,6 +182,16 @@ color: #4E5150;
     color: #333333;
     font-weight: 600;
 }
+.footer{
+    text-align: center;
+}
+.footer p, .footer p a{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    /* color: #333333; */
+}
 
 
 /* media queries/responsiveness */

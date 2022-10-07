@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Check Out Page</title>
 
       </head>
@@ -28,7 +29,7 @@
     <div class="container">
       <h1 class="form-heading">Checkout</h1>
       <div class="form-container flex--1">
-      <div class="left-con">
+      <div class="left-con" data-aos="fade-right" data-aos-duration="2000">
         <form>
           <div class="top">
             <h2>Contact Information</h2>
@@ -330,7 +331,7 @@
          </div>
         </form>
       </div>
-      <div class="right-con">
+      <div class="right-con" data-aos="fade-left" data-aos-duration="2000">
         <div class="product-con flex--1">
         <div class="product-img">
           <img src="image/photo1.png" alt="">
@@ -382,5 +383,14 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <p>created by <a href="https://github.com/uniquness1">AYODELE</a> - <a href="devChallenges.io">devchallenges</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
